@@ -138,9 +138,56 @@ public class Assignment1 {
 	        }
 	        
 	        //20.Write a Java program to display all prime numbers within a given range.
-	
+	        
+	        
+	        //21.Write a Java program to generate the Fibonacci series up to N terms.
+	        
+	        
+	        //22.Write a Java program to check whether a number is an Armstrong number.
+	        
+	        
+	        //23.Write a Java program to find the greatest common divisor (GCD) of two numbers.
+	        
+	        
+	        //24.Write a Java program to find the least common multiple (LCM) of two numbers.
+	        
+	        
+	        //25.Write a Java program to count the number of digits in a number.
+	        
+	        
+	        //26.Write a Java program to calculate the power of a number.
+	        Scanner s5 = new Scanner(System.in);
+	        System.out.print("Enter a number: ");
+	        int n1 = s5.nextInt();
+	        Scanner s6 = new Scanner(System.in);
+	        System.out.print("Enter a power of that number: ");
+	        int n2= s6.nextInt();
+	        int result = 1;
+
+	        for (int count = 1; count <= n2; count++) {
+	            result = result * n1;
+	        }
+	        System.out.println("The "+n1+" power "+n2+" is "+result);	
+	        
+	        
+	        
+	        //27.Write a Java program to find the largest element in an array.
+	        int[] arr = {10, 25, 7, 89, 45};
+	        int largest = arr[0]; // Assume first element is largest
+	        for (int no = 1; no < arr.length; no++) { // Traverse the array
+	            if (arr[no] > largest) { // Check if current element is greater
+	                largest = arr[no];   // Update largest element
+	            }
+	            System.out.println(largest);
+	            
+	        //28.Write a Java program to find the smallest element in an array.
+	        
+	        
+	        //29.Write a Java program to calculate the sum of all elements in an array.
+	        
+	        //30.Write a Java program to calculate the average of array elements
 	
 	
 	} 
 
-}
+	}
